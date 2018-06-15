@@ -41,8 +41,6 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     libshim_camera \
     libxml2 \
-    OnePlusGallery_OP3 \
-	MIUICamera \
     Snap
 
 # Device uses high-density artwork where available
