@@ -27,6 +27,7 @@
 #
 
 import init.qcom.usb.rc
+import init.SmartPack.rc
 
 on early-init
     mount debugfs debugfs /sys/kernel/debug
@@ -1022,3 +1023,4 @@ on property:persist.sys.ssr.restart_level=3
 
 on property:service.bootanim.exit=1
     #write /sys/module/rmnet_usb/parameters/dump_ctrl_msg 2
+    
